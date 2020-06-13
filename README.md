@@ -9,7 +9,7 @@ Our training has taught us that there is a "golden hour" for victims of car acci
 Our solution involves leveraging the advancements in Internet of Things technology to bring about an instantaneous diagnosis of the severity of car crashes. This data will then be rapidly analyzed to generate a list of appliances required to provide an effective response to the situation. Ideally, all essential appliances would then be dispatched from the nearest fire station. Through our solution, we are able to save a considerable amount of time from the combination of time spent waiting for a bystander to make a call, time taken for the situation to be explained, and time expended as dispatchers decides on which tiered response is appropriate. 
 ### Pitch Video
 ### Architecture of our proposed solution
-![sda ](https://github.com/seanmanik/31Coders-RTADispatch_SCDFXIBM/tree/master/Images/Architecture%202.png
+![](images/Images/Architecture%202.png)
 ### Hyperlink to our solution
 ### Proposed timeline
 ### GGetting started

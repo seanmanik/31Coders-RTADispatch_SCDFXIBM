@@ -1,0 +1,31 @@
+{
+     "name" : "Send an e-mail",
+     "description" : "Email me with alerts",
+     "type": "webhook",
+     "enabled": true,
+     "configuration": {
+         "targetUrl": "https://srh158.internetofthings.ibmcloud.com",
+         "method": "POST",
+         "contentType": "application/json",
+         "username": "gakramaqil@gmail.com",
+         "password": "****************",
+         "headers": [
+             {
+             "name" : "mycustomheader",
+             "value" : "{{$event.Android_LI}}"
+             },
+             {
+             "name" : "{{deviceIntHeader}}",
+             "value" : "{{intValue}}"
+             },
+             {
+             "name" : "From",
+             "value" : "gakramaqil@gmail.com"
+             }
+         ],
+         "body" : "{\"specialIntValue\" : {{someInt}}, \"someStringValue\": \"{{someString}}\"}"
+     },
+     "refs": {
+         "triggers": "/api/v0002/actions/5cbf508ff07686001ff778de/triggers"
+     }
+ }

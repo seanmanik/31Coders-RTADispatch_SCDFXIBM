@@ -19,7 +19,16 @@ Our solution involves leveraging the advancements in Internet of Things technolo
 ### Hyperlink to our solution
 To begin, we will be using sensors in cars which will then be connected to the internet via the smartphones of the driver. These sensors test for heat levels, petrol concentration, deceleration, airbag deployment, seat belt usage, and integrity of cross car beams. Upon experiencing abnormal measurements, specific amount of points will be generated. A point system is then used to determine the level of tiered response that SCDF should adopt. This will then allow appliances to be dispatched much more quickly while also providing responders with remote diagnosis of the condition of both the casualty and the vehicles. In addition, responders will be able to formulate clear rescue plans enroute, thus contributing to the enhancement of the quality of aid rendered.
 
-The first hurdle that our team has to overcome is implementing our sensors onto a car. There are six sensors that we chose to focus on. They are
+The first hurdle that our team has to overcome is to successfully implement the relevant sensors onto a car. There are six sensors that we chose to focus on. They are sensors that detect deceleration, temperature, airbag deployment, seat belt usage, petrol fumes and cross beam integrity. We plan to use incorporate the first four sensors into existing technologies. Deceleration and airbag deployment sensors are already present in a car's crash detection system. Cars have thermistors as well to warn drivers of possible overheating. Modern cars also have seat belt usage detection functions. As such, these sensors are already implemented in cars today and we simply have to connect them to the internet for the facilitation of their use in our solution.
+
+For petrol fumes, we have done research into the prices of petrol vapor detectors and found them to be extremely affordable. They are in the price range of $100-$200 and this is negligible compared to the cost of a car. Hence, we believe that the inclusion of a petrol fume sensor in cars is highly feasible. For the cross car beam integrity sensor, we have decided to use weight sensors to determine whether the beam is dislodged. This is an essential part of our diagnostics system because one of the most common occurences during RTAs is that the cross car beam collapses and traps the driver in the car. 
+
+Understanding the level of structural integrity of the beam will allow us to determine whether an extrication unit and toolset is required. In the following visual, we have illustrated how the beam can fall and we have identified two spots where we can place our weight sensors at.
+![](Images/Cross%20car%20beam%20sensors.png)
+
+The cross car beam is known to be extremely heavy and we are confident that its collapse will result in noticeable spike in weight readings as illustrated below.
+![](Images/CrossCarBeamGraph.png)
+
 ### Proposed timeline
 ![](Images/Proposed%20timeline.png)
 ### GGetting started

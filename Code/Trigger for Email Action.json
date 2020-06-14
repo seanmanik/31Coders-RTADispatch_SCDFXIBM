@@ -1,0 +1,21 @@
+{
+  "name": "Trigger for email action",
+  "type": "rule",
+  "description": "My Rule Trigger",
+  "configuration": {
+    "Andriod_LI": "5ee5b8f669d3710009bcf7e3",
+    "ruleId": "5ee5bba4f9786d000849ebcc",
+    "type": "android",
+    "typeId": "aag",
+    "instanceId": "aag"
+  },
+  "variableMappings": {
+    "someId": "$event.instanceId",
+    "somevalue": "$event.Andriod_LI",
+    "deviceIntHeader": "device-version",
+    "intValue": "$state.d.acceleration",
+    "someInt": "$state.d.acceleration",
+    "someString": "$event.ruleId"
+  },
+  "enabled": true
+}

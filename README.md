@@ -4,15 +4,12 @@ Reducing response time to Road Traffic Accidents
 ## Description
 
 **Team Introduction**
-
 Our group is made up of three members, Aqil Akram, Raghav Nair, and Sean Manik. Both Aqil and Raghav will be studying Computer Science in NTU and NUS starting this year, while Sean will begin his Computer Science course at NUS in 2021. Our group name, 31 Coders, is inspired by the fire station in which we have each served our National Service in. As section commanders and firefighters in Yishun Fire Station, we have witnessed the challenges faced by Emergency Responders when responding to Road Traffic Accidents (RTAs). 
 
 **Project Description**
-
 With better law & enforcement and stringent regulations, the overall traffic situation in Singapore has improved over the years. However, Road Traffic Accidents still occupy a substantial percentage of cases SCDF Emergency Medical Services and Fire & Rescue Department respond to daily. In 2019, there were 7,666 road traffic accidents resulting in injuries and 117 fatalities. While SCDF has continued to upgrade and improve on operational proficiency, our reponse procedure as remained stagnant over the years when concerning RTAs. For a case to be registered, a member of public has to witness the incident, call 995, and relay concise information to the Ops Centre Operator. Based on experience, the full process can take 5-10 minutes. At the same time, RTAs are extremely time sensitive. Victims of RTAs have a statsitical "golden hour" from the time of accident within which they have to be brought to a hospital to ensure a high probablity of survival. Not to mention an ever-present risk of fuel ignition as a consequence of RTAs. 
 
-However, with Internt of Things (IoT), we might just have a breakthrough. By using this program we have developed, we hope to decrease SCDF's response time to RTA cases. 
-Our solution involves leveraging the advancements in Internet of Things technology to bring about an instantaneous diagnosis of the severity of car crashes. This data will then be rapidly analyzed to generate a list of appliances required to provide an effective response to the situation. Ideally, all essential appliances would then be dispatched from the nearest fire station. Through our solution, we are able to save a considerable amount of time from the combination of time spent waiting for a bystander to make a call, time taken for the situation to be explained, and time expended as dispatchers decides on which tiered response is appropriate. 
+However, with Internt of Things (IoT), we might just have a breakthrough. By using this program we have developed, we hope to decrease SCDF's response time to RTA cases. Our solution involves leveraging the advancements in Internet of Things technology to bring about an instantaneous diagnosis of the severity of car crashes. This data will then be rapidly analyzed to generate a list of appliances required to provide an effective response to the situation. Ideally, all essential appliances would then be dispatched from the nearest fire station. Through our solution, we are able to save a considerable amount of time from the combination of time spent waiting for a bystander to make a call, time taken for the situation to be explained, and time expended as dispatchers decides on which tiered response is appropriate. 
 ## Pitch Video
 ## Architecture of our proposed solution
 ![](Images/Architecture.png)
@@ -37,7 +34,7 @@ The total number of points will then be tabulated and a suitable response will b
 We have also developed another way to determine whether there is a casualty trapped in the car. Upon activation of a Tier 1 response, an alarm in the car will be sounded. The driver has 30 seconds to deactivate the alarm through a button in the car or on his phone. If this alarm is not deactivated, the casualty is assumed to be trapped and a Tier 2 response with extrication capabilities will be dispatched. This will allow SCDF to avoid responding to non-emergency minor accidents. In addition, during the 30-second timeframe, Tier 2 response appliances can be put on standby to get rescue personnel ready, thus facilitating a quicker dispatch.
 ## Proposed timeline
 ![](Images/Proposed%20timeline.png)
-## GGetting started
+## Getting started
 ## Running the tests
 ## Live demo
 ### What we used to build our solution

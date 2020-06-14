@@ -30,7 +30,7 @@ The cross car beam is known to be extremely heavy and we are confident that its 
 ![](Images/CrossCarBeamGraph.png)
 
 During a car accident, our sensors will record abnormal readings and this data will be sent to the IBM Watson IoT Edge Gateway where our program would be calculating the severity of the incident through a point system. The program then decides the tier of response required for the incident and sends out this information to the Cloud. SCDF then has access to this information and can authorize a dispatch immediately. In the following table, we have detailed the point system which we would follow.
-![](Images/Diagnostics.png)
+![](Images/Diagnostics2.png)
 The total number of points will then be tabulated and a suitable response will be decided upon. We drew upon SCDF's RTA response tiers to develop a system that our program can follow to recommend a suitable level of dispatch for the incident.
 ![](Images/Tiered%20Response.png)
 ### Proposed timeline

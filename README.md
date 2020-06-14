@@ -17,8 +17,6 @@ However, with Internet of Things (IoT), we might just have a breakthrough. By us
 https://docs.google.com/document/d/13d2gSMU3XQPFQ79sRLEenR5D2vPUgW9KoJJeVWHeovM/edit
 ## Proposed timeline
 ![](Images/Proposed%20timeline.png)
-## Getting started
-## Running the tests
 ## Live demo
 ### What we used to build our solution
 We used the following services to build our solution.

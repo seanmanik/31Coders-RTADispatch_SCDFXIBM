@@ -26,9 +26,9 @@ To begin, we will be using sensors in cars which will then be connected to the i
 ### What we used to build our solution
 We used the following services to build our solution.
 ![](Images/CloudFoundry.png)
-Cloud Foundry
+#### Cloud Foundry
 ![](Images/node.js.jpeg)
-Node.js
+#### Node.js
 ![](Images/IBMIoTPlatform.jpg)
-IBM IoT Platform
+#### IBM IoT Platform
 

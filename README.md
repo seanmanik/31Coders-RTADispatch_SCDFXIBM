@@ -19,7 +19,7 @@ Our solution involves leveraging the advancements in Internet of Things technolo
 ### Hyperlink to our solution
 To begin, we will be using sensors in cars which will then be connected to the internet via the smartphones of the driver. These sensors test for heat levels, petrol concentration, deceleration, airbag deployment, seat belt usage, and integrity of cross car beams. Upon experiencing abnormal measurements, specific amount of points will be generated. A point system is then used to determine the level of tiered response that SCDF should adopt. This will then allow appliances to be dispatched much more quickly while also providing responders with remote diagnosis of the condition of both the casualty and the vehicles. In addition, responders will be able to formulate clear rescue plans enroute, thus contributing to the enhancement of the quality of aid rendered.
 ### Proposed timeline
-![](Images/Proposed%20roadmap.png)
+![](Images/Proposed%20Timeline.png)
 ### GGetting started
 ### Running the tests
 ### Live demo

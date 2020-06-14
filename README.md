@@ -33,6 +33,8 @@ During a car accident, our sensors will record abnormal readings and this data w
 ![](Images/Diagnostics2.png)
 The total number of points will then be tabulated and a suitable response will be decided upon. We drew upon SCDF's RTA response tiers to develop a system that our program can follow to recommend a suitable level of dispatch for the incident.
 ![](Images/Tiered%20Response.png)
+
+We have also developed another way to determine whether there is a casualty trapped in the car. Upon activation of a Tier 1 response, an alarm in the car will be sounded. The driver has 30 seconds to deactivate the alarm through a button in the car or on his phone. If this alarm is not deactivated, the casualty is assumed to be trapped and a Tier 2 response with extrication capabilities will be dispatched. This will allow SCDF to avoid responding to non-emergency minor accidents. In addition, during the 30-second timeframe, Tier 2 response appliances can be put on standby to get rescue personnel ready, thus facilitating a quicker dispatch.
 ### Proposed timeline
 ![](Images/Proposed%20timeline.png)
 ### GGetting started

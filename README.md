@@ -2,7 +2,7 @@
 Reducing response time to Road Traffic Accidents 
 
 ## Description
-Our solution aims to improve response times to road traffic accidents through the use of IoT technology. With data provided by the various sensors that we intend to fit onto a car, we hope to provide rapid diagnosis of the damage caused in an accident and initiate a dispatch almost immediately after the crash. This will help responders get accident victims to hospitals in a timely manner, thus raising survival rates and improving SCDF's overall response effectiveness.
+Our solution aims to improve response times to road traffic accidents through the use of IoT technology. With data provided by the various sensors that we will fit onto a car, we hope to provide rapid diagnosis of damages caused in an accident and initiate an instantaneous dispatch. Responders can then get accident victims to hospitals quickly, raising survival rates and SCDF's overall response effectiveness.
 
 **Team Introduction**
 Our group is made up of three members, Aqil Akram, Raghav Nair, and Sean Manik. Both Aqil and Raghav will be studying Computer Science in NTU and NUS starting this year, while Sean will begin his Computer Science course at NUS in 2021. Our group name, 31 Coders, is inspired by the fire station in which we have each served our National Service in. As section commanders and firefighters in Yishun Fire Station, we have witnessed the challenges faced by Emergency Responders when responding to Road Traffic Accidents (RTAs). 

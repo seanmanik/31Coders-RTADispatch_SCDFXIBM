@@ -29,6 +29,6 @@ We used the following services to build our solution.
 #### Cloud Foundry
 ![](Images/node.js.jpeg)
 #### Node.js
-![](Images/IBMIoTPlatform.jpg)
+![](Images/IBMIoTPlatform.jpeg)
 #### IBM IoT Platform
 

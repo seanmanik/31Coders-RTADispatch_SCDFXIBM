@@ -1,7 +1,7 @@
 # 31Coders-RTADispatch_SCDFXIBM
 Reducing response time to Road Traffic Accidents 
 
-### Description
+## Description
 
 **Team Introduction**
 
@@ -13,10 +13,10 @@ With better law & enforcement and stringent regulations, the overall traffic sit
 
 However, with Internt of Things (IoT), we might just have a breakthrough. By using this program we have developed, we hope to decrease SCDF's response time to RTA cases. 
 Our solution involves leveraging the advancements in Internet of Things technology to bring about an instantaneous diagnosis of the severity of car crashes. This data will then be rapidly analyzed to generate a list of appliances required to provide an effective response to the situation. Ideally, all essential appliances would then be dispatched from the nearest fire station. Through our solution, we are able to save a considerable amount of time from the combination of time spent waiting for a bystander to make a call, time taken for the situation to be explained, and time expended as dispatchers decides on which tiered response is appropriate. 
-### Pitch Video
-### Architecture of our proposed solution
+## Pitch Video
+## Architecture of our proposed solution
 ![](Images/Architecture.png)
-### Hyperlink to our solution
+## Hyperlink to our solution
 To begin, we will be using sensors in cars which will then be connected to the internet via the smartphones of the driver. These sensors test for heat levels, petrol concentration, deceleration, airbag deployment, seat belt usage, and integrity of cross car beams. Upon experiencing abnormal measurements, specific amount of points will be generated. A point system is then used to determine the level of tiered response that SCDF should adopt. This will then allow appliances to be dispatched much more quickly while also providing responders with remote diagnosis of the condition of both the casualty and the vehicles. In addition, responders will be able to formulate clear rescue plans enroute, thus contributing to the enhancement of the quality of aid rendered.
 
 The first hurdle that our team has to overcome is to successfully implement the relevant sensors onto a car. There are six sensors that we chose to focus on. They are sensors that detect deceleration, temperature, airbag deployment, seat belt usage, petrol fumes and cross beam integrity. We plan to use incorporate the first four sensors into existing technologies. Deceleration and airbag deployment sensors are already present in a car's crash detection system. Cars have thermistors as well to warn drivers of possible overheating. Modern cars also have seat belt usage detection functions. As such, these sensors are already implemented in cars today and we simply have to connect them to the internet for the facilitation of their use in our solution.
@@ -35,17 +35,17 @@ The total number of points will then be tabulated and a suitable response will b
 ![](Images/Tiered%20Response.png)
 
 We have also developed another way to determine whether there is a casualty trapped in the car. Upon activation of a Tier 1 response, an alarm in the car will be sounded. The driver has 30 seconds to deactivate the alarm through a button in the car or on his phone. If this alarm is not deactivated, the casualty is assumed to be trapped and a Tier 2 response with extrication capabilities will be dispatched. This will allow SCDF to avoid responding to non-emergency minor accidents. In addition, during the 30-second timeframe, Tier 2 response appliances can be put on standby to get rescue personnel ready, thus facilitating a quicker dispatch.
-### Proposed timeline
+## Proposed timeline
 ![](Images/Proposed%20timeline.png)
-### GGetting started
-### Running the tests
-### Live demo
+## GGetting started
+## Running the tests
+## Live demo
 ### What we used to build our solution
 We used the following services to build our solution.
 ![](Images/CloudFoundry.png)
-#### Cloud Foundry
+### Cloud Foundry
 ![](Images/node.js.jpeg)
-#### Node.js
+### Node.js
 ![](Images/IBMIoTPlatform.jpeg)
-#### IBM IoT Platform
+### IBM IoT Platform
 
